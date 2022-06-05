@@ -14,7 +14,17 @@ MQTT firmware for ESP8266 + DHT22 (temperature + humidity) + MQ-135 (air quality
 - MQ135.h ( https://github.com/Phoenix1747/MQ135 )
 - ArduinoJson.h https://arduinojson.org/?utm_source=meta&utm_medium=library.properties
 
+### Pins
+
+- DHT22 -> D1
+- MQ135 -> A0
+
 ### Install
+
+- Download mqtt_sensor_bundle.ino
+- Set wifi settings (ssid and passsword)
+- Set mqtt settings (mqttServer, mqttPort, mqttUser, mqttPassword)
+- Deploy to your esp8266
 
 ### Node-RED integration
 
