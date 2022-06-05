@@ -10,7 +10,15 @@ MQTT firmware for ESP8266 + DHT22 (temperature + humidity) + MQ-135 (air quality
 
 ### Node-RED integration
 
-### Grafana integration
+Use nodered.js as shown here:
+
+![esp8266 sensor bundle nodered](https://github.com/schneebonus/ESP8266-MQTT-Sensor-Bundle/blob/main/sensor_bundle_nodered.png?raw=true=)
+
+### Grafana air quality
+
+Example value mapping for air quality:
+
+![grafana value mapping](https://github.com/schneebonus/ESP8266-MQTT-Sensor-Bundle/blob/main/grafana_air_quality.png?raw=true)
 
 ### Credits
 
