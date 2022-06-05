@@ -10,6 +10,8 @@ MQTT firmware for ESP8266 + DHT22 (temperature + humidity) + MQ-135 (air quality
 
 ### Node-RED integration
 
+### Grafana integration
+
 ### Credits
 
 - https://smarthome-blogger.de/blog/esp8266-projekte/esp8266-dht22-temperatur-sensor
